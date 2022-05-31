@@ -1,0 +1,13 @@
+### index
+GET http://localhost:3000
+
+### todos list
+GET http://localhost:3000/todos HTTP/1.1
+
+### create todo
+POST http://localhost:3000/todos HTTP/1.1
+Content-Type: application/json
+
+{
+  "title": "test"
+}
